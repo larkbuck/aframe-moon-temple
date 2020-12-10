@@ -11,6 +11,11 @@ Water shader doesn't work with 1.1 release
 
 Component and Primitive for the water registered in water.js, called in line 101 of HTML
 
+- Original code by Ada Rode Cannon from https://samsunginter.net/a-frame-components/ < link broken
+- Remixed from https://glitch.com/~acute-proximal-dog by Dirk Krause
+- Got it from this stackoverflow thread: https://stackoverflow.com/questions/52837505/using-watershader-js-shader-in-aframe
+
+
 
 
 index.html:
@@ -26,7 +31,6 @@ index.html:
 
 water.js:
 
-    // Adapted from https://glitch.com/~acute-proximal-dog by Dirk Krause
 
     AFRAME.registerComponent('wobble-normal', {
     	schema: {},
